@@ -1,0 +1,7 @@
+.DS_Store
+mypy-report/*
+mypy-html/*
+mypy-txt/*
+mypy-xml/*
+venv
+mypy_output.txt
