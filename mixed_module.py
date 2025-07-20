@@ -53,11 +53,3 @@ class MixedClass:
             "item_count": len(self.items),
             "has_items": bool(self.items)
         }
-
-    def get_summary_untyped_typed_again(self):
-        """Typed method."""
-        return {
-            "name": self.name,
-            "item_count": len(self.items),
-            "has_items": bool(self.items)
-        }
