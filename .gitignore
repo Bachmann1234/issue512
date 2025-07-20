@@ -5,3 +5,4 @@ mypy-txt/*
 mypy-xml/*
 venv
 mypy_output.txt
+mypy_report
