@@ -1,6 +1,7 @@
 """A module with mixed type coverage."""
 
 from typing import Dict, Any
+import nonsense
 
 
 def typed_function(name: str, age: int) -> Dict[str, Any]:
