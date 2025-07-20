@@ -45,3 +45,11 @@ class MixedClass:
             "item_count": len(self.items),
             "has_items": bool(self.items)
         }
+
+    def get_summary_typed_again(self) -> Dict[str, Any]:
+        """Typed method."""
+        return {
+            "name": self.name,
+            "item_count": len(self.items),
+            "has_items": bool(self.items)
+        }
